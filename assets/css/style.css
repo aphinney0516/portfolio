@@ -50,5 +50,25 @@ p {
     font-size: 18px;
     text-align: center;
     padding: 15px;
+}
 
+/* style the section elements for web application placeholders here */
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: var(--trebuchet);
+    padding: 5px;
+    text-align: center;
+}
+
+.links li {
+    display: inline-flex;
+    font-size: 20px;
+    list-style: none;
+    padding: 5px;
+}
+
+.links a {
+    color: white;
 }
