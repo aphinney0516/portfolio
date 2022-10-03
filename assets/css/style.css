@@ -1,0 +1,54 @@
+/* variables */
+:root {
+    /* fonts */
+    --trebuchet: 'Trebuchet MS', Helvetica, sans-serif;
+
+    /* spacing */
+    --spacing-unit: 24px;
+    --spacing-unit-small: 12px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* element styles */
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    font-family: var(--trebuchet);
+    justify-content: space-between;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav li {
+    font-size: 20px;
+    float: right;
+    list-style: none;
+    margin-right: 5px;
+    padding: 5px
+}
+
+.nav a {
+    color: white;
+}
+
+.image {
+    display: block;
+    padding-top: 75px;
+    width: 100%;
+}
+
+p {
+    display: block;
+    font-family: var(--trebuchet);
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+
+}
