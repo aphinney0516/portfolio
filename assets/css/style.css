@@ -42,7 +42,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 75px;
+    padding-top: 100px;
     width: 75%;
 }
 
@@ -54,8 +54,36 @@ p {
     padding: 15px;
 }
 
+.applications {
+    display: block;
+    font-family: var(--trebuchet);
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+
 section {
-    padding-bottom: 5px;;
+    padding-bottom: 5px;
+}
+
+#fitness_quest {
+    display: block;
+    font-family: var(--trebuchet);
+    text-align: center;
+}
+
+#guild_tavern {
+    display: block;
+    font-family: var(--trebuchet);
+    padding-top: 30px;
+    text-align:center;
+}
+
+#champions_of_arteria {
+    display: block;
+    font-family: var(--trebuchet);
+    padding-top: 30px;
+    text-align:center;
 }
 
 .placeholder {
@@ -63,6 +91,7 @@ section {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
 }
 
 footer {
