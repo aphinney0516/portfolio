@@ -14,6 +14,11 @@ body {
     height: 100vh;
 }
 
+section {
+    display: flex;
+    padding: 25px;
+}
+
 /* element styles */
 header {
     background-color: black;
@@ -40,30 +45,39 @@ header {
 
 .headshot {
     display: block;
+    float: left;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 15px;
     padding-top: 100px;
-    width: 75%;
+    width: 50%;
+}
+
+#about_me {
+    display: block;
+    float: right;
+    font-family: var(--trebuchet);
+    padding-bottom: 0%;
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
 }
 
 p {
     display: block;
     font-family: var(--trebuchet);
     font-size: 18px;
+    float: right;
+    padding: 10px;
     text-align: center;
-    padding: 15px;
 }
 
 .applications {
     display: block;
     font-family: var(--trebuchet);
     font-size: 18px;
-    text-align: center;
-    padding: 15px;
-}
-
-section {
     padding-bottom: 5px;
+    text-align: center;
 }
 
 #fitness_quest {
@@ -112,4 +126,14 @@ footer {
 
 .links a {
     color: white;
+}
+
+/* This is no working and needs to be fixed */
+/* Responsive styling for mobile devices */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .headshot,
+    .bio {
+        display: flex;
+        flex-direction: column;
+    }
 }
