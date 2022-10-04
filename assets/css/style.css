@@ -38,10 +38,12 @@ header {
     color: white;
 }
 
-.image {
+.headshot {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 75px;
-    width: 100%;
+    width: 75%;
 }
 
 p {
@@ -52,7 +54,16 @@ p {
     padding: 15px;
 }
 
-/* style the section elements for web application placeholders here */
+section {
+    padding-bottom: 5px;;
+}
+
+.placeholder {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 footer {
     background-color: black;
@@ -60,6 +71,7 @@ footer {
     font-family: var(--trebuchet);
     padding: 5px;
     text-align: center;
+    width: 100%;
 }
 
 .links li {
