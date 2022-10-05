@@ -11,12 +11,6 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-}
-
-section {
-    display: flex;
-    padding: 25px;
 }
 
 /* element styles */
@@ -41,6 +35,11 @@ header {
 
 .nav a {
     color: white;
+}
+
+.above_the_fold {
+    display: flex;
+    padding: 25px;
 }
 
 .headshot {
@@ -73,39 +72,37 @@ p {
 }
 
 .applications {
-    display: block;
-    font-family: var(--trebuchet);
-    font-size: 18px;
-    padding-bottom: 5px;
-    text-align: center;
-}
-
-#fitness_quest {
-    display: block;
-    font-family: var(--trebuchet);
-    text-align: center;
-}
-
-#guild_tavern {
-    display: block;
-    font-family: var(--trebuchet);
-    padding-top: 30px;
-    text-align:center;
-}
-
-#champions_of_arteria {
-    display: block;
-    font-family: var(--trebuchet);
-    padding-top: 30px;
-    text-align:center;
+    display: flex;
+    padding: 25 px;
 }
 
 .placeholder {
-    display: block;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    flex: content;
+    padding: 10px;
+}
+
+#actors_access {
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#dnd_beyond {
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#instagram {
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
 }
 
 footer {
@@ -128,7 +125,7 @@ footer {
     color: white;
 }
 
-/* This is no working and needs to be fixed */
+/* This is not working and needs to be fixed */
 /* Responsive styling for mobile devices */
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .headshot,
