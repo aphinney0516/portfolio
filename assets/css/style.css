@@ -37,25 +37,8 @@ header {
     color: white;
 }
 
-.above_the_fold {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 25px;
-}
-
-.headshot {
-    display: block;
-    float: left;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 15px;
-    padding-top: 100px;
-    width: 50%;
-}
-
 #about_me {
     display: block;
-    float: right;
     font-family: var(--trebuchet);
     padding-bottom: 0%;
     padding-top: 100px;
@@ -63,8 +46,23 @@ header {
     width: 100%;
 }
 
+.above_the_fold {
+    display: flex;
+    padding: 25px;
+}
+
+.headshot {
+    display: flex;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    padding-top: 0%;
+    width: 50%;
+}
+
 p {
-    display: block;
+    display: flex;
     font-family: var(--trebuchet);
     font-size: 18px;
     float: right;
