@@ -78,7 +78,13 @@ p {
     width: 100%;
 }
 
-.applications {
+.first_row {
+    display: flex;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.second_row {
     display: flex;
     padding: 10px;
     max-width: 100%;
@@ -89,11 +95,13 @@ p {
     padding: 10px;
 }
 
+.placeholder:hover {
+    transform: scale(1.1)
+}
+
 #dnd_beyond {
     flex: 1 0 200px;
     padding: 10px;
-    border-style: solid;
-    border-width: 1px;
     width: 100%;
 }
 
