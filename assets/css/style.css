@@ -39,6 +39,7 @@ header {
 
 .above_the_fold {
     display: flex;
+    flex-wrap: wrap;
     padding: 25px;
 }
 
