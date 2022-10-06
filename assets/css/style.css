@@ -71,9 +71,17 @@ p {
     text-align: center;
 }
 
+#work {
+    display: block;
+    font-family: var(--trebuchet);
+    text-align: center;
+    width: 100%;
+}
+
 .applications {
     display: flex;
-    padding: 25 px;
+    padding: 10px;
+    max-width: 100%;
 }
 
 .placeholder {
@@ -81,28 +89,35 @@ p {
     padding: 10px;
 }
 
-#actors_access {
-    flex: 1 0 200px;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-}
-
 #dnd_beyond {
     flex: 1 0 200px;
     padding: 10px;
-    text-align: center;
     border-style: solid;
     border-width: 1px;
+    width: 100%;
+}
+
+#actors_access {
+    flex: 1 0 200px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
 }
 
 #instagram {
     flex: 1 0 200px;
     padding: 10px;
-    text-align: center;
     border-style: solid;
     border-width: 1px;
+    width: 100%;
+}
+
+#contact_me {
+    display: block;
+    font-family: var(--trebuchet);
+    text-align: center;
+    width: 100%;
 }
 
 footer {
@@ -125,11 +140,9 @@ footer {
     color: white;
 }
 
-/* This is not working and needs to be fixed */
-/* Responsive styling for mobile devices */
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    .headshot,
-    .bio {
+/* Media Query */
+@media screen and (min-width: 600-px) and (max-width: 400px) {
+    .above_the_fold {
         display: flex;
         flex-direction: column;
     }
