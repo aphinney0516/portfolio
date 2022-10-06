@@ -49,6 +49,7 @@ header {
 .above_the_fold {
     display: flex;
     padding: 25px;
+    max-width: 100%;
 }
 
 .headshot {
