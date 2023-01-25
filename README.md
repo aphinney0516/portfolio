@@ -5,7 +5,7 @@ This web page was create to provide potential employers with a place to view my 
 
 ## Installation
 Link to webpage:
-[link]https://aphinney0516.github.io/portfolio/
+https://aphinney0516.github.io/portfolio/
 Screenshots of webpage:
 [](assets/about_me.png)
 [](assets/work_top_row.png)
